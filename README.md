@@ -1,7 +1,7 @@
 # NNforMNIST
 全连接神经网络，实现MNIST数据集的分类。
 
-**目录结构：**
+**目录结构：**  
 dataloader.py: 数据集读取  
 main.py: 程序入口  
 network.py: 神经网络定义与实现  
