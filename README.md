@@ -1,15 +1,20 @@
 # NNforMNIST
-全连接神经网络，实现MNIST数据集的分类。
+A fully connected neural network for MNIST classification, implemented by Python 3.5 and Numpy. 
 
-**目录结构：**  
-dataloader.py: 数据集读取  
-main.py: 程序入口  
-network.py: 神经网络定义与实现  
-model: 训练得到的模型  
-TRAIN_DATA.npy: 训练过程产生的迭代数据 (epoch, iteration, accuracy, loss)
+**Requirements:**
+Python 3.5  
+Numpy  
 
-**使用方法：**  
-进入 main.py 运行即可，其中包含三个函数，各负责不同的功能：  
-train() 用于训练，得到的模型会保存在 model 文件夹；  
-test() 用于计算测试集的分类准确率；  
-test10RandomImgs() 会随机分类10个样本，并使用图形界面显示。
+**Description:**  
+dataloader.py: Dataloader for MNIST dataset  
+main.py: Entry point for this project  
+network.py: Implementation for the proposed network  
+model: Parameters obtained by training process  
+TRAIN_DATA.npy: Meta-data created by training process (epoch, iteration, accuracy, loss)
+
+**Training:**  
+Open main.py and run train(). The updated weights and parameters will be saved in 'model' folder.
+
+**Testing:**
+Open main.py and run test() to obtain the classification accuracy on test set.
+You can also run test10RandomImgs() to check 10 random classification results through graphic interface.
