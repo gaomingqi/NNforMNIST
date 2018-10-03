@@ -1,7 +1,7 @@
 # NNforMNIST
 A fully connected neural network for MNIST classification, implemented by Python 3.5 and Numpy. 
 
-**Requirements:**
+**Requirements:**  
 Python 3.5  
 Numpy  
 
