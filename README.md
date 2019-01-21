@@ -6,7 +6,7 @@ __Homepage__: [https://mingqigao.com](https://mingqigao.com)
 __Email__: gaomingqi@cqu.edu.cn, im.mingqi@gmail.com  
 
 <div align="center">
-<img src="NN_arc.jpg" width="75%"/>
+<img src="NN_arc.jpg" width="70%"/>
 </div>
 
 >__Figure__. The architecture of implemented neural network, where dim is the number of the pixels in a MNIST image (i.e. width x height).
